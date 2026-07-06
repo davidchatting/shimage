@@ -1,0 +1,16 @@
+{
+  "name": "shimage",
+  "version": "1.1.0",
+  "description": "Image shims for p5.js - converting between ImageBitmap/HTMLCanvasElement and p5.Image",
+  "main": "shimage.js",
+  "files": [
+    "shimage.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidchatting/shimage.git"
+  },
+  "author": "David Chatting (davidchatting.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/davidchatting/shimage"
+}

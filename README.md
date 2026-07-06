@@ -5,10 +5,10 @@ Image shims for [p5.js](https://p5js.org/): small helpers for converting between
 ## Usage
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/davidchatting/shimage@1.0.0/shimage.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/davidchatting/shimage@1.1.0/shimage.js"></script>
 ```
 
-Pin to a version tag (`@1.0.0`) rather than `@main` so updates here can't silently change behaviour for existing consumers.
+Pin to a version tag (`@1.1.0`) rather than `@main` so updates here can't silently change behaviour for existing consumers.
 
 ### `canvasToP5Image(canvas, p5img, options)`
 
@@ -20,7 +20,7 @@ Same, but from an `ImageBitmap` - draws it to a temporary canvas first, then cal
 
 ## Versioning
 
-Tagged with [semver](https://semver.org/). Originally developed inside [davidchatting/p5js-experiments](https://github.com/davidchatting/p5js-experiments) (`js/shimage.js`), which had no version numbers of its own - `1.0.0` here is the first tagged release.
+Tagged with [semver](https://semver.org/). Originally developed inside [davidchatting/p5js-experiments](https://github.com/davidchatting/p5js-experiments) (`js/shimage.js`), which had no version numbers of its own - `1.0.0` here was the first tagged release. `1.1.0` removed `getIndex` and `makeP5Mask`, an unused helper and an unimplemented stub respectively - neither did anything functional, but removing public identifiers is a minor-version change regardless.
 
 ## License
 
