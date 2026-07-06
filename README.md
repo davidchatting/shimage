@@ -28,7 +28,7 @@ Converts an `HTMLImageElement` to a `p5.Graphics` usable as a WEBGL `texture()` 
 
 ### `drawProjectedImage(srcImg, x, y, Hproj, zDepth)`
 
-Draws `srcImg` as a texture warped by a flat 16-element row-major 4x4 matrix `Hproj`. Requires `applyTransform4x4` to be defined - typically via [davidchatting/opencv-featurematch](https://github.com/davidchatting/opencv-featurematch)'s `imgproc.js`.
+Draws `srcImg` as a texture warped by a flat 16-element row-major 4x4 matrix `Hproj`. Requires `applyTransform4x4` to be defined - typically via [davidchatting/opencv-featurematch-js](https://github.com/davidchatting/opencv-featurematch-js)'s `imgproc.js`.
 
 ## License
 
