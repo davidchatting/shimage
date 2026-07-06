@@ -1,7 +1,7 @@
 {
   "name": "shimage",
-  "version": "1.1.1",
-  "description": "Image shims for p5.js - converting between ImageBitmap/HTMLCanvasElement and p5.Image",
+  "version": "1.2.0",
+  "description": "Image shims for p5.js - converting between ImageBitmap/HTMLCanvasElement/cv.Mat and p5.Image, plus WEBGL texture helpers",
   "main": "shimage.js",
   "files": [
     "shimage.js"
