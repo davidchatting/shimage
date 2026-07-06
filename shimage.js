@@ -1,9 +1,9 @@
 //shimage - image shims for p5js
 //David Chatting - davidchatting.com -  29th January 2023
 
-function imageBitmapToP5Image(bitmap, image, options = { flipX: false, flipY: false }) {
-  let s = image.width / bitmap.width;
-  
+function imageBitmapToP5Image(bitmap, p5img, options = { flipX: false, flipY: false }) {
+  let s = p5img.width / bitmap.width;
+
   //bitmap to canvas
   let tempCanvas = document.createElement('canvas');
   tempCanvas.id = 'tempCanvas';
@@ -13,8 +13,8 @@ function imageBitmapToP5Image(bitmap, image, options = { flipX: false, flipY: fa
   document.body.appendChild(tempCanvas);
   const ctx = tempCanvas.getContext('2d');
   ctx.drawImage(bitmap, 0, 0, bitmap.width * s, bitmap.height * s);
-  
-  canvasToP5Image(tempCanvas, image, options);
+
+  canvasToP5Image(tempCanvas, p5img, options);
   tempCanvas.remove();
 }
 
